@@ -12,7 +12,7 @@
       <PreprocessorDefinitions>BOOST_MEM_FN_ENABLE_STDCALL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(BoostDir)\lib\VC14\$(GDTPlatformExt);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(BoostDir)\lib\VC14\$(AMDTPlatformExt);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
